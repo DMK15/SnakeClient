@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35787ccf-a80b-411d-abef-56cb74204b22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/ContentPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/Frame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/Games.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/Highscore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/MainMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/StartMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logik/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logik/MainMenuController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logik/Controller.java" afterPath="$PROJECT_DIR$/src/logik/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdk/RequestBuilder.java" afterPath="$PROJECT_DIR$/src/sdk/RequestBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/Game.java" afterPath="$PROJECT_DIR$/src/gui/Game.java" />
     </list>
     <ignored path="Snake Client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.2964427">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2206#2207#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2108#2109#0" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2201#2202#0" expanded="true" />
+                <element signature="e#2250#2251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logik/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6897234">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -189,13 +178,13 @@
         <option value="$PROJECT_DIR$/src/gui/Login.java" />
         <option value="$PROJECT_DIR$/src/gui/StartMenu.java" />
         <option value="$PROJECT_DIR$/src/gui/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/gui/Game.java" />
         <option value="$PROJECT_DIR$/src/logik/Main.java" />
         <option value="$PROJECT_DIR$/src/sdk/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/src/logik/Controller.java" />
         <option value="$PROJECT_DIR$/src/gui/ContentPanel.java" />
         <option value="$PROJECT_DIR$/src/gui/Games.java" />
         <option value="$PROJECT_DIR$/src/logik/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/gui/Game.java" />
       </list>
     </option>
   </component>
@@ -843,7 +832,7 @@
       <workItem from="1452076874829" duration="6895000" />
       <workItem from="1452086865022" duration="9494000" />
       <workItem from="1452096808700" duration="10000" />
-      <workItem from="1453367279297" duration="3863000" />
+      <workItem from="1453367279297" duration="5631000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt strukture">
       <created>1447762842168</created>
@@ -863,11 +852,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452095924419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Worked on Projekt strukture 50 % done&#10;Worked on projeckt logic&#10;&#10;Gui connectet - now able to log in, and start the game.">
+      <created>1453405408437</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1453405408437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28746000" />
+    <option name="totallyTimeSpent" value="30514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -940,7 +935,8 @@
     <MESSAGE value="Projekt strukture" />
     <MESSAGE value="Projekt struktureV1.0" />
     <MESSAGE value="Worked on Projekt strukture 50 % done&#10;Worked on projeckt logic&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projekt strukture 50 % done&#10;Worked on projeckt logic&#10;&#10;" />
+    <MESSAGE value="Worked on Projekt strukture 50 % done&#10;Worked on projeckt logic&#10;&#10;Gui connectet - now able to log in, and start the game." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projekt strukture 50 % done&#10;Worked on projeckt logic&#10;&#10;Gui connectet - now able to log in, and start the game." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1315,22 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/Games.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1398,10 +1378,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logik/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6897234">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2964427">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,47 +21,47 @@ public class Game extends JPanel{
      */
     public Game() {
         setLayout(null);
-        setSize(600, 500);
+        setSize(346, 466);
         setBackground(new Color(152, 251, 152));
 
         JLabel lblCreateGame = new JLabel("Create game");
-        lblCreateGame.setFont(new Font("Lucida Grande", Font.PLAIN, 15));
-        lblCreateGame.setBounds(239, 80, 162, 26);
+        lblCreateGame.setFont(new Font("Myanmar MN", Font.BOLD, 17));
+        lblCreateGame.setBounds(131, 44, 120, 26);
         add(lblCreateGame);
 
         JLabel lblGamename = new JLabel("Game name:");
-        lblGamename.setBounds(195, 334, 88, 16);
+        lblGamename.setBounds(33, 226, 88, 16);
         add(lblGamename);
 
         textFieldGameName = new JTextField();
-        textFieldGameName.setBounds(309, 329, 130, 26);
+        textFieldGameName.setBounds(133, 226, 130, 26);
         add(textFieldGameName);
         textFieldGameName.setColumns(10);
 
         JLabel lblControls = new JLabel("Controls:");
-        lblControls.setBounds(55, 159, 61, 16);
+        lblControls.setBounds(33, 131, 61, 16);
         add(lblControls);
 
         textFieldControls = new JTextField();
-        textFieldControls.setBounds(128, 154, 130, 26);
+        textFieldControls.setBounds(133, 126, 130, 26);
         add(textFieldControls);
         textFieldControls.setColumns(10);
 
         JLabel lblMapSize = new JLabel("Map size");
-        lblMapSize.setBounds(97, 245, 61, 16);
+        lblMapSize.setBounds(33, 185, 61, 16);
         add(lblMapSize);
 
         textFieldMapSize = new JTextField();
-        textFieldMapSize.setBounds(170, 240, 130, 26);
+        textFieldMapSize.setBounds(133, 180, 130, 26);
         add(textFieldMapSize);
         textFieldMapSize.setColumns(10);
 
         btnGoBack = new JButton("Go Back");
-        btnGoBack.setBounds(6, 465, 117, 29);
+        btnGoBack.setBounds(6, 403, 112, 35);
         add(btnGoBack);
 
         btnCreate = new JButton("Create");
-        btnCreate.setBounds(462, 401, 117, 29);
+        btnCreate.setBounds(133, 282, 129, 35);
         add(btnCreate);
     }
 
