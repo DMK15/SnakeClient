@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.sun.jersey.api.client.ClientResponse;
 import model.Game;
 import model.User;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 /**
  * Created by davidmyrup on 06/01/2016.
@@ -21,8 +23,20 @@ public class RequestBuilder {
         if(response == null){
             return 3;
         }
-        else if(response.getStatus() == 200)
+        else if(response.getStatus() == 200){
+            JSONParser jsonParser = new JSONParser();
+            Object obj = null;
+            try{
+                obj = jsonParser.parse(response.getEntity(String.class));
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+            JSONObject jsonObject = (JSONObject) obj;
+            int userId = Integer.valueOf(jsonObject.get("userid").toString());
+            user.setId(userId);
             return 1;
+        }
+
         else
             return 2;
     }
